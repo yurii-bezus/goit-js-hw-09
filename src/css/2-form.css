@@ -14,7 +14,7 @@
 
 .feedback-form * {
     box-sizing: border-box;
-    /* Виправляє переповнення */
+  
 }
 
 .feedback-form label {
@@ -32,6 +32,7 @@
     font-size: 16px;
     font-family: inherit;
     transition: border-color 0.3s;
+    resize: none;
 }
 
 .feedback-form input:focus,
