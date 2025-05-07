@@ -1,0 +1,59 @@
+.feedback-form {
+    max-width: 408px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    box-sizing: border-box;
+}
+
+.feedback-form * {
+    box-sizing: border-box;
+    /* Виправляє переповнення */
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #4e75ff;
+    outline: none;
+}
+
+.feedback-form button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4e75ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+    background-color: #6c8cff;
+}
